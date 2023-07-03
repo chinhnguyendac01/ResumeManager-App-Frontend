@@ -2,7 +2,7 @@ export interface ICompany {
    id: string;
    name: string;
    size: string;
-   createdAt: string;
+   createAt: string;
 }
 export interface ICreateCompanyDto {
    name: string;
@@ -14,7 +14,7 @@ export interface IJob {
    level: string;
    companyId: string;
    companyName: string;
-   createdAt: string;
+   createAt: string;
 }
 export interface ICreateJobDto {
    title: string;

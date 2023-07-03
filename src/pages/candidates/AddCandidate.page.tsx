@@ -62,6 +62,7 @@ const AddCandidate = () => {
          .post("/Candidate/Create", newCandidateFormData)
          .then((responst) => redirect("/candidates"))
          .catch((error) => console.log(error));
+      
    };
 
    const handleClickBackBtn = () => {
